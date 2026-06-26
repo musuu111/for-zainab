@@ -1,1 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Letter</title>
 
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#080808;
+color:white;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+padding:20px;
+}
+
+.card{
+max-width:850px;
+background:rgba(255,255,255,.05);
+padding:45px;
+border-radius:20px;
+backdrop-filter:blur(15px);
+box-shadow:0 0 40px rgba(255,255,255,.08);
+animation:fade 1.2s ease;
+}
+
+h1{
+text-align:center;
+margin-bottom:30px;
+font-size:42px;
+}
+
+p{
+font-size:19px;
+line-height:2;
+color:#ddd;
+text-align:center;
+}
+
+button{
+margin-top:35px;
+display:block;
+margin-left:auto;
+margin-right:auto;
+padding:15px 40px;
+border:none;
+border-radius:50px;
+font-size:18px;
+cursor:pointer;
+background:white;
+color:black;
+}
+
+@keyframes fade{
+from{
+opacity:0;
+transform:translateY(40px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="card">
+
+<h1>For You ❤️</h1>
+
+<p>
+
+I don't know if these words will ever change anything.
+
+Maybe they'll simply remain here,
+read once and quietly forgotten.
+
+But even then,
+I'm grateful they reached you.
+
+I never wanted to become a burden,
+or ask you to feel what I feel.
+
+I only wanted to be honest.
+
+Some people become important
+without ever realizing it.
+
+For me...
+
+You became one of those people.
+
+</p>
+
+<button onclick="location.href='final.html'">
+One Last Page →
+</button>
+
+</div>
+
+</body>
+</html>
