@@ -1,1 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Welcome</title>
 
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#050505,#101010,#1d1d1d);
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+color:white;
+overflow:hidden;
+}
+
+.card{
+width:90%;
+max-width:700px;
+padding:50px;
+text-align:center;
+background:rgba(255,255,255,.08);
+backdrop-filter:blur(20px);
+border-radius:25px;
+box-shadow:0 0 40px rgba(255,255,255,.1);
+animation:fade 1.5s ease;
+}
+
+h1{
+font-size:45px;
+margin-bottom:20px;
+}
+
+p{
+font-size:20px;
+line-height:1.9;
+color:#ddd;
+margin-bottom:35px;
+}
+
+button{
+padding:15px 45px;
+font-size:18px;
+border:none;
+border-radius:50px;
+cursor:pointer;
+background:white;
+color:black;
+transition:.3s;
+}
+
+button:hover{
+transform:scale(1.05);
+}
+
+@keyframes fade{
+from{
+opacity:0;
+transform:translateY(40px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="card">
+
+<h1>Hi, Zainab ❤️</h1>
+
+<p>
+If you're reading these words,<br><br>
+
+Thank you for giving a few moments of your time.
+
+This isn't to force a place in your life,
+or to ask for something in return.
+
+It's simply a small corner where I've honestly
+expressed what has always been in my heart.
+</p>
+
+<button onclick="location.href='letter.html'">
+Continue →
+</button>
+
+</div>
+
+</body>
+</html>
